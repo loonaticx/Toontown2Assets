@@ -1,0 +1,40 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 244
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 178
+	string m_Name = ""
+	PPtr<$Asteroid> asteroidPrefab
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 544
+	PPtr<$Asterpinata> asterpinataPrefab
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 561
+	PPtr<$StarPinata> starPinataPrefab
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 562
+	float worldSize = 100
+	int maxAsteroidSize = 20
+	int minAsteroidSize = 3
+	int asteroidCount = 0
+	PPtr<$PowerUp> powerUpPrefab
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 552
+	int nLayers = 3
+	float xDim = 2
+	float yDim = 2
+	float zDim = 600
+	int maxAsteroidCount = 300
+	Vector3f offsetXYZ
+		float x = 0
+		float y = 40
+		float z = 15
+	int xDivisions = 1
+	int yDivisions = 1
+	int zDivisions = 3
+	UInt8 manualVelocityScale = 1
+	float velocityScale = 1
+	UInt8 astCreated = 0

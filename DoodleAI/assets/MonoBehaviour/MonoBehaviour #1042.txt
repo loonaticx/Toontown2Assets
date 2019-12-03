@@ -1,0 +1,24 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 236
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		SInt32 m_FileID = 3
+		SInt32 m_PathID = 173
+	string m_Name = ""
+	PPtr<$AnimationClip> doodleIdle
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 198
+	float awareDistance = 15
+	float scaredDistance = 10
+	PPtr<$Transform> player
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 0
+	float runSpeed = 450
+	float turn = 1
+	UInt8 bounce = 0
+	float boing = 25
+	float gravity = 20
+	float speed = 6
+	float jumpSpeed = 8

@@ -1,0 +1,14 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 261
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 176
+	string m_Name = ""
+	PPtr<$Transform> lookAtObject
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 0
+	float starSpeedMin = 0
+	float starSpeedMax = 20

@@ -1,0 +1,38 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 245
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 190
+	string m_Name = ""
+	float maxAsteroidVelocity = 10
+	float minAsteroidVelocity = 1
+	PPtr<$GameObject> explosionPrefab
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 243
+	PPtr<$AudioClip> explosionSound
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 156
+	PPtr<$GameObject> jellybeanPrefab
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 265
+	PPtr<$GameObject> spacelipsPrefab
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 265
+	PPtr<$GameObject> whistlePrefab
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 246
+	PPtr<$GameObject> lollyPrefab
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 269
+	UInt8 happened = 0
+	int beanCount = 9
+	float beanWorldSize = 10
+	PPtr<$GameObject> confettiEmitter
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 248
+	PPtr<$GameObject> confettiEmitterOrange
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 251

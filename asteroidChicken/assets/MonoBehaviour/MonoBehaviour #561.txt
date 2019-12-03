@@ -1,0 +1,18 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 262
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 185
+	string m_Name = ""
+	PPtr<$GameObject> starPrefab
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 261
+	float fieldSize = 1000
+	int starCount = 500
+	Vector3f offsetXYZ
+		float x = 0
+		float y = 0
+		float z = 25

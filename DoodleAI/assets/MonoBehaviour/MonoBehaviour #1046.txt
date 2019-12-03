@@ -1,0 +1,26 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 236
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		SInt32 m_FileID = 3
+		SInt32 m_PathID = 134
+	string m_Name = ""
+	UInt8 _drawGizmos = 0
+	Vector3f _center
+		float x = 0
+		float y = 0
+		float z = 0
+	Vector3f _scaledCenter
+		float x = 0
+		float y = 0
+		float z = 0
+	UInt8 _hasInertia = 1
+	float _internalMass = 1
+	UInt8 _isPlanar = 1
+	float _radius = 1
+	float _scaledRadius = 1
+	float _maxSpeed = 200
+	float _maxForce = 200
+	UInt8 _canMove = 1

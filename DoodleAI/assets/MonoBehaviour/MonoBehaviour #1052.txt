@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 236
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		SInt32 m_FileID = 3
+		SInt32 m_PathID = 170
+	string m_Name = ""
+	Tick _tick
+		float _randomRangeMin = 0
+		float _randomRangeMax = 0
+		float _tickLapse = 0.1
+		float Priority = 0
+	BitField _obstacleLayer
+		UInt32 m_Bits = 1536
+	BitField _layersChecked
+		UInt32 m_Bits = 1280
+	float _detectionRadius = 10
+	UInt8 _drawGizmos = 0

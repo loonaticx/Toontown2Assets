@@ -1,0 +1,18 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 923
+	bool m_Enabled = True
+	PPtr<MonoScript> m_Script
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 0
+	string m_Name = ""
+	PPtr<$Material> night_material
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 774
+	PPtr<$Material> day_material
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 773
+	PPtr<$GameObject> lights_prefab
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 0

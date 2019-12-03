@@ -1,0 +1,16 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 254
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 186
+	string m_Name = ""
+	int beamVelocity = 300
+	PPtr<$GameObject> miniExplosion
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 264
+	PPtr<$AudioClip> miniExplosionSound
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 150

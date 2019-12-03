@@ -1,0 +1,11 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 236
+	UInt8 m_Enabled = 0
+	PPtr<MonoScript> m_Script
+		SInt32 m_FileID = 3
+		SInt32 m_PathID = 108
+	string m_Name = ""
+	float Radius = 5
+	UInt8 IsPlanar = 1

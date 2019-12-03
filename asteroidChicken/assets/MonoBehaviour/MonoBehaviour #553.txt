@@ -1,0 +1,26 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 246
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 222
+	string m_Name = ""
+	float maxAsteroidVelocity = 1
+	float minAsteroidVelocity = 2
+	PPtr<$GameObject> explosionPrefab
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 243
+	PPtr<$AudioClip> explosionSound
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 160
+	PPtr<$GameObject> wrapperSparkle
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 0
+	UInt8 happened = 0
+	float minCandySize = 1
+	float maxCandySize = 1
+	PPtr<$AudioClip> biteSound
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 147

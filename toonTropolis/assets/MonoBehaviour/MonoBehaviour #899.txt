@@ -1,0 +1,9 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 927
+	bool m_Enabled = True
+	PPtr<MonoScript> m_Script
+		SInt32 m_FileID = 2
+		SInt32 m_PathID = 208
+	string m_Name = ""

@@ -1,0 +1,20 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 923
+	bool m_Enabled = False
+	PPtr<MonoScript> m_Script
+		SInt32 m_FileID = 2
+		SInt32 m_PathID = 152
+	string m_Name = ""
+	float focalDistance = 10
+	float focalRange = 300
+	float iterations = 0.01
+	float iterations2 = 0.02
+	float blurSpread = 0.6
+	PPtr<$Shader> renderSceneShader
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 646
+	PPtr<$Shader> compositeShader
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 640

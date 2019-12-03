@@ -1,0 +1,51 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 264
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 203
+	string m_Name = ""
+	float size = 30
+	ColorRGBA color
+		float r = 1
+		float g = 0.423
+		float b = 0
+		float a = 0.5
+	UInt8 explodeOnStart = 1
+	float duration = 1
+	float detail = 1
+	float destroyTime = 2
+	PPtr<$Material> fireballAMaterial
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 0
+	PPtr<$Material> fireballBMaterial
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 0
+	PPtr<$Material> smokeAMaterial
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 0
+	PPtr<$Material> smokeBMaterial
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 0
+	PPtr<$Material> shockwaveMaterial
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 0
+	PPtr<$Material> sparksMaterial
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 0
+	PPtr<$Material> glowMaterial
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 0
+	PPtr<$Material> heatwaveMaterial
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 0
+	UInt8 autoCreateFireball = 1
+	UInt8 autoCreateSparks = 1
+	UInt8 autoCreateShockwave = 0
+	UInt8 autoCreateSmoke = 1
+	UInt8 autoCreateGlow = 0
+	UInt8 autoCreateLight = 0
+	UInt8 autoCreateForce = 1
+	UInt8 autoCreateHeatwave = 0

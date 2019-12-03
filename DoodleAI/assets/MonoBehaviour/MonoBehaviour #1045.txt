@@ -1,0 +1,15 @@
+MonoBehaviour Base
+	PPtr<GameObject> m_GameObject
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 237
+	UInt8 m_Enabled = 1
+	PPtr<MonoScript> m_Script
+		SInt32 m_FileID = 3
+		SInt32 m_PathID = 201
+	string m_Name = ""
+	PPtr<$GameObject> explosion
+		SInt32 m_FileID = 0
+		SInt32 m_PathID = 236
+	float timeOut = 3
+	int bounceCount = 0
+	int numOfBounces = 10
